@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mitchell Down – Sell Any Car Fast</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Tasmania Trip Planner</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="card">
-    <img src="SACFSocial.png" alt="Sell Any Car Fast Logo" class="logo" />
-    <h1>Mitchell Down</h1>
-    <p class="title">Managing Director</p>
-    <p>Sell Any Car Fast</p>
-    <a href="tel:0413829364">📞 0413 829 364</a>
-    <a href="mailto:hello@sellanycarfast.com.au">✉️ hello@sellanycarfast.com.au</a>
-    <a href="https://www.sellanycarfast.com.au" target="_blank">🌐 sellanycarfast.com.au</a>
-  </div>
+  <h1>Tasmania Itinerary</h1>
+
+  <label for="startDate">Start Date:</label>
+  <input type="date" id="startDate" />
+
+  <table id="itineraryTable">
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Date</th>
+        <th>Location</th>
+        <th>Activity</th>
+        <th>Notes</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <button id="addDay">+ Add Day</button>
+  <button id="save">💾 Save</button>
+  <button id="clear">🗑️ Clear</button>
+
+  <script src="script.js"></script>
 </body>
 </html>
