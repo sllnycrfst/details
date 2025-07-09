@@ -1,45 +1,41 @@
 body {
-  margin: 0;
-  height: 100vh;
-  background: linear-gradient(135deg, #e0e7ff, #f1f5f9);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-}
-
-.card {
-  background: rgba(255, 255, 255, 0.25);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 20px;
-  padding: 2rem;
-  text-align: center;
-  width: 320px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
-}
-
-.logo {
-  width: 100px;
-  margin-bottom: 1rem;
+  font-family: sans-serif;
+  margin: 2rem;
+  background: #f4f4f4;
+  color: #333;
 }
 
 h1 {
-  margin: 0.25rem 0;
-  font-size: 1.5rem;
-  color: #1e293b;
+  color: #387cc2;
 }
 
-.title {
-  color: #387cc2;
-  font-weight: 500;
-  margin: 0.25rem 0 1rem;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background: white;
 }
 
-a {
-  display: block;
-  color: #387cc2;
-  margin: 0.25rem 0;
-  text-decoration: none;
-  font-weight: 500;
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+input[type="date"], input, textarea {
+  padding: 5px;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  padding: 10px 15px;
+  background: #387cc2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2f6aad;
 }
